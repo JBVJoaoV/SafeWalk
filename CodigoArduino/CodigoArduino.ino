@@ -20,6 +20,9 @@ void loop() {
       digitalWrite(ledR, HIGH);
       digitalWrite(ledG, LOW);
 
-    } 
+    } else if (comando == 'N') {
+      digitalWrite(ledR, HIGH);
+      digitalWrite(ledG, LOW);
+    }
   }
 }
